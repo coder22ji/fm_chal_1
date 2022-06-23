@@ -25,6 +25,7 @@ body {
 h1 {
     font-size: 2rem;
     margin: 0;
+    font-weight: 700;
 }
 
 .h1span {
