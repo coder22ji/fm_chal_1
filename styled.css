@@ -1,0 +1,70 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(233, 47%, 7%);
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 70%;
+    height: 50vh;
+
+}
+
+.row {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.h1span {
+    color: hsl(277, 64%, 61%);
+}
+
+.head-span {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.stat-text {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.p-color {
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+
+#bg-img {
+    background-image:
+        linear-gradient(to bottom, rgba(170, 92, 219, 0.9), rgba(170, 92, 219, 0.9)),
+        url('images/image-header-desktop.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.pad-a {
+    padding: 3.5rem;
+}
+
+.pad-r {
+    padding-right: 3.5rem;
+}
